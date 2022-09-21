@@ -139,13 +139,23 @@ print(my_end)
 
 # dictionaries
 # another data structure that stores data that can be unstructured
-# employee = {'first_name': 'steven',
-#             'last_name': 'pretti',
-#              'weight': 37.2,
-#               'size': 5.77
-#              'height:' 6}
-# print(employee['weight'])
+employee = {'first_name': 'steven',
+            'last_name': 'pretti',
+             'weight': 37.2,
+              'size': 5.77,
+             'height': 6}
+print(employee['height'])
 
+warrior = { 'made by': 'hbomax',
+            'release date': 2018,
+            'budget': '24 million',
+            'rotten_tomatoes_score': 'fresh'}
+warrior['score'] = 78 # how u add to a dictonary
+print(warrior['release date'])
+print(warrior['budget'])
+print(warrior.items())
+print(warrior.keys())
+print(warrior.values())
 #challenge 1
 # Create a dictionary called my_dict that stores the following information about a person:
 # name: Karen
@@ -154,20 +164,28 @@ print(my_end)
 # occupation: Journalist
 # The names of the keys and values must be equal to the ones indicated above.
 
+person1 = {'firstName' : 'Karen',
+           'lastName' : 'Jurgens',
+           'age' : 35,
+           'occupation' : 'Journalist'}
+print(person1.keys())
+print(person1.values())
+
+
 #challenge 2:
 # Use print to returns the second item of the list called points2, inside the following dictionary.
 
 # If the value 300 were to change in the future, the code should work the same to return the value at that same position. To do this, you must refer to the names of the keys and/or indexes as appropriate.
-my_dict = {
-    "values_1": {
-        "v1": 3,
-        "v2": 6
-    },
-    "points": {
-        "points1": 9,
-        "points2": [10, 300, 15]
-    }
-}
+# my_dict = {
+#     "values_1": {
+#         "v1": 3,
+#         "v2": 6
+#     },
+#     "points": {
+#         "points1": 9,
+#         "points2": [10, 300, 15]
+#     }
+# }
 # print(my_dict[]) #Use dictionary indices to extract the second item of points2
 
 #challenge 2
