@@ -129,6 +129,7 @@ print(control)
 num1 = 17834/34
 numb2 = 87*56
 my_end = num1 > numb2
+print(my_end)
 # Check if the square root of 25 is equal to 5 and display the result (boolean) on the screen using print
 
 
